@@ -1,0 +1,146 @@
+.welcome{
+    .yazi{
+        position: absolute;
+        top: 373px;
+    left: 328px;
+    }
+ 
+}
+
+.container0{
+    position: absolute;
+    top: 1028px;
+    left: 200px;
+    width: 1539px;
+    position: absolute;
+    left: 337px;
+}
+
+.container0{
+    .body{
+        .flex{
+            margin-bottom: 42px;
+        }
+    }
+    border-radius: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    background-color: #fff;
+    padding: 10px;
+    width: 1450px;
+    height: 1110px;
+
+    .body{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(205, 202, 202, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        width: 330px;
+        height: 695px;
+        
+    }
+}
+
+.product{
+    position: absolute;
+}
+
+.container2{
+    display: flex;
+    position: absolute;
+    top: 2000px;
+    left: 239px;
+
+    .left{
+        margin-right: 236px;
+        margin-left: 127px;
+            .head{
+                >h2 {
+                    font-size: 40px;
+                    color: #015e6b;
+                    font-weight: 900;
+                }
+                >p{
+                    font-size: 40px;
+                    color: #015e6b;
+                    font-weight: 300;
+                }
+            }
+        
+        .body{
+            width: 600px;
+        }
+    }
+}
+
+.container > .special {
+    position: absolute;
+    top: 2862px;
+    right: -57px;
+background-image: url(https://www.colorhexa.com/015e6b.png);
+background-repeat: repeat-y no-repeat;
+padding: 80px;
+
+}
+
+.down {
+    position: relative;
+    bottom: -122px;
+    
+}
+.top{
+    position: relative;
+    bottom: 27px
+}
+
+.product{
+    position: absolute;
+    right: 500px;
+}
+
+.product{
+   margin: 40px;
+  
+}
+.kleyn{
+
+    border: 1px solid rgba(193, 192, 192, 0.8);
+position: relative;
+left: 200px;
+border-radius: 20px;
+}
+
+
+.topproduct > .head{
+    position: absolute;
+    top: 4050px;
+    justify-content: space-evenly;
+    
+  
+}
+.topproduct {
+    .head{
+        >h2{
+            margin-right: 500px;
+            font-size: 40px;
+        }
+    }
+}
+
+.yazi2{
+    position: relative;
+    top:4900px;
+    left: 800px;
+>p{
+    width: 650px;
+}
+>h2{
+    width: 350px;
+    color: #015e6b;
+}
+}

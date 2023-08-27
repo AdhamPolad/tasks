@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0618/3518/2257/files/banner.png?v=1665999384);
+    background-repeat: no-repeat;
+    background-size: 2300px;
+    background-position-x: 0;
+    background-position-y: 80px ;
+    margin: 0;
+    padding: 0;
+    font-family: josefin sans,sans-serif;
+    font-weight: 600;
+}
+
+.parfum{
+    >a:hover
+    { background-color: blueviolet;
+}
+}
+
+
+/* @media  (max-width:799px){
+    .welcome > .yazi > .lorem {
+        max-width: 499px;
+    }
+    .container0 > .body {
+      grid-template-columns: auto;
+      gap: 50px;
+        
+    }
+} */
+@media  (max-width:1200px){
+    .pages {
+        display: none;
+    }
+    .parfum {
+        display: none;
+    }
+    .cart{
+        position: relative;
+        right: 1400px;
+    }
+    .container0 >  {
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+    }
+    .container2{
+        flex-direction: column;
+        margin-bottom: 600px;
+      
+    }
+   
+}
+
+.hero{
+    .navbar:hover{
+        background-color: aliceblue;
+    }
+}
+
+@media    (max-width:576px){
+    .topproduct {
+        position: relative;
+        top: 590px;
+    }
+  .container > .special > .top {
+    margin: 30px;
+    margin-top: 150px;
+    margin-bottom: -110px;
+   }
+   .welcome > .yazi {
+    position: relative;
+    right: 70px;
+    font-size: 1px;
+    margin-bottom: 30px;
+    margin-left: -260px;
+   }
+   .welcome > .btn1{
+    margin-top: 80px;
+    margin-left: -290px;
+   }
+   .welcome > .yazi >p{
+font-size: 10px;
+   }
+   
+.container2 > .left >.head{
+    margin-left: -350px;
+}
+.container2 > .left >.body{
+    margin-left: -350px;
+}
+.container2 > .left >.foot{
+    margin-left: -350px;
+}
+.container2 > .right >img{
+    margin: 40px;
+    margin-left: -220px;
+}
+.topproduct > .head {
+    position: relative;
+    left: 50px;
+    margin: 200px;
+}
+.topproduct > .head > button{
+    position: relative;
+    right: 630px;
+    top: 120px;
+}
+.topproduct > .head > h2{
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.product > .kleyn{
+    position: relative;
+    left: 300px;
+}
+.product > .kleyn{
+    position: relative;
+    left: 300px;
+}
+.product > .kleyn{
+    position: relative;
+    left: 300px;
+}
+
+}
+
