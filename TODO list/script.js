@@ -25,7 +25,7 @@ function addTodo (e){
     }
     else{
        addTodoToUi(inputText);
-
+       addToStorage(inputText);
     } 
 
     
@@ -51,15 +51,21 @@ function addTodoToUi(newTodo){
      li.appendChild(a)
      todoList.appendChild(li);
 
-    //  addInput.value =""
+     addInput.value =""
+
+    
 }
 
 function addToStorage(newTodo){
-    checkTodoStorage()
+    checkStorage()
+    todos.push(newTodo)
+    localStorage.setItem("todos",JSON.stringify(todos))
 }
 
-function checkTodoStorage(){
-    if(localStorage.getItem("todos")){
-        
+function checkStorage(){
+    if(localStorage.getItem("todos")===null){
+        todos = [];
+    }else{
+       todos = JSON.parse(localStorage.getItem("todos"))
     }
 }
